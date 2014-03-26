@@ -1,0 +1,11 @@
+#!/bin/bash
+TABLE_NAME=Tran_Log_Info
+
+
+COLUMNS=f:center_code:String,f:module_code:String,f:inner_code:String,f:office_no:String,f:window_no:String,f:operater_no:String,f:operate_time:String,f:train_date:String,f:train_no:String,f:coach_no:String,f:seat_no:String,f:seat_type_code:String,f:board_station:String,f:end_station:String,f:ticket_type:String,f:ticket_number:String,f:coach_no_list:String,f:seat_no_list1:String,f:seat_no_list2:String,f:flag0:String,f:flag1:String
+
+KEY_COLUMNS=7,8,2,3,4,5,6
+#HBASE_ROW_KEY=7,8,2,3,4,5,6
+
+COLUMNS_SEPARATOR=';'
+
