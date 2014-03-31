@@ -26,9 +26,9 @@ public class ZkConfigPublisher {
 
 	private static final void loadProperties() {
 		InputStream is = ZkConfigPublisher.class
-				.getResourceAsStream("/config.properties");
+				.getResourceAsStream("/zkpublisher.properties");
 		if (is == null) {
-			throw new RuntimeException("找不到orderconfig.properties资源文件.");
+			throw new RuntimeException("找不到zkpublisher.properties资源文件.");
 		}
 		Properties props = new Properties();
 		try {

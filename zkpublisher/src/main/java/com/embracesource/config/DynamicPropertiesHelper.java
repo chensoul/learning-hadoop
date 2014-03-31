@@ -66,11 +66,6 @@ public class DynamicPropertiesHelper {
 		return (String) this.properties.get(key);
 	}
 	
-	public static void main(String[] args) {
-		System.out.println(Boolean.valueOf(null));
-		System.out.println(Integer.parseInt(null));
-	}
-	
 	public Boolean getBooleanProperty(String key,Boolean defaultValue) {
 		if(!containsProperty(key)||this.properties.get(key)==null){
 			return defaultValue;
