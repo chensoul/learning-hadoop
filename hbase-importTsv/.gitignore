@@ -1,3 +1,6 @@
+.externalToolBuilders/
+.settings/
 target/
 bin/
-.externalToolBuilders/
+.project
+.classpath
