@@ -1,16 +1,16 @@
 *.class
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 
-*/.externalToolBuilders/
-*/.settings/
-*/target/
-*/bin/
-*/.project
-*/.classpath
+*.externalToolBuilders/
+*.settings/
+*target/
+*bin/
+*.project
+*.classpath
 
 *.iml
 .idea
