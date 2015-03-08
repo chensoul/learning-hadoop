@@ -4,3 +4,15 @@
 *.jar
 *.war
 *.ear
+
+*/.externalToolBuilders/
+*/.settings/
+*/target/
+*/bin/
+*/.project
+*/.classpath
+
+*.iml
+.idea
+
+
