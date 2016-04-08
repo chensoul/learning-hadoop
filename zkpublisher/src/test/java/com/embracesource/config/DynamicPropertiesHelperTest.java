@@ -28,7 +28,7 @@
 //		DynamicPropertiesHelper helper = this.helperFactory
 //				.getHelper("test.properties");
 //		final CountDownLatch latch = new CountDownLatch(1);
-//		helper.registerListener("listener",
+//		helper.registerListener("test",
 //				new DynamicPropertiesHelper.PropertyChangeListener() {
 //					public void propertyChanged(String oldValue, String newValue) {
 //						System.out.println("property chaged: oldValue="
