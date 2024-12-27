@@ -9,7 +9,7 @@
 		<java.version>1.6</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<slf4j.version>1.6.1</slf4j.version>
-		<spring.version>3.2.2.RELEASE</spring.version>
+		<spring.version>3.2.18.RELEASE</spring.version>
 	</properties>
 
 	<repositories>
