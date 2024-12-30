@@ -55,7 +55,7 @@
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase</artifactId>
-            <version>0.94.5</version>
+            <version>0.99.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.hadoop</groupId>
